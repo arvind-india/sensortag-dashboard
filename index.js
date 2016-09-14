@@ -67,7 +67,7 @@ SensorTag.discoverAll(function (sensorTag) {
                     readings.currentTime = new Date();
                     console.log("Time - ", readings.currentTime, " - Readings = ", readings);
                 });
-            }, 1000);
+            }, 10000);
         });
     });
 });
