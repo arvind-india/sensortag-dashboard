@@ -1,0 +1,29 @@
+{
+  "name": "sensortag-dashboard",
+  "version": "0.0.1",
+  "description": "Dashboard for TI's SensorTag",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/siddii/sensortag-dashboard.git"
+  },
+  "keywords": [
+    "sensortag",
+    "iot",
+    "dashboard"
+  ],
+  "author": "siddii",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/siddii/sensortag-dashboard/issues"
+  },
+  "homepage": "https://github.com/siddii/sensortag-dashboard",
+  "dependencies": {
+    "async": "2.0.1",
+    "nedb": "1.8.0",
+    "sensortag": "1.2.2"
+  }
+}
